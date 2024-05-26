@@ -2481,7 +2481,7 @@ function useBase64(target, options) {
           const serialized = _serializeFn(_target);
           return resolve(blobToBase64(new Blob([serialized], { type: "application/json" })));
         } else {
-          reject(new Error("target is unsupported types"));
+          reject(new Error("target is unsupported types.ts"));
         }
       } catch (error) {
         reject(error);

@@ -62,10 +62,10 @@ importers:
         version: 5.4.5
       vite:
         specifier: ^5.1.4
-        version: 5.2.11(@types/node@20.12.12)
+        version: 5.2.11(@types.ts/node@20.12.12)
       vitest:
         specifier: ^1.4.0
-        version: 1.6.0(@types/node@20.12.12)(jsdom@24.1.0)
+        version: 1.6.0(@types.ts/node@20.12.12)(jsdom@24.1.0)
       vue-tsc:
         specifier: ^1.8.27
         version: 1.8.27(typescript@5.4.5)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       vitepress:
         specifier: 1.0.0-rc.44
-        version: 1.0.0-rc.44(@algolia/client-search@4.23.3)(@types/node@20.12.12)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.4.5)
+        version: 1.0.0-rc.44(@algolia/client-search@4.23.3)(@types.ts/node@20.12.12)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.4.5)
 
   packages/hooks: {}
 
@@ -117,7 +117,7 @@ importers:
         version: 5.4.5
       vite:
         specifier: ^5.2.0
-        version: 5.2.11(@types/node@20.12.12)
+        version: 5.2.11(@types.ts/node@20.12.12)
       vue-tsc:
         specifier: ^2.0.6
         version: 2.0.19(typescript@5.4.5)
@@ -589,7 +589,7 @@ packages:
       preact: 10.22.0
     transitivePeerDependencies:
       - '@algolia/client-search'
-      - '@types/react'
+      - '@types.ts/react'
       - react
       - react-dom
       - search-insights
@@ -1096,7 +1096,7 @@ packages:
       '@babel/core': 7.24.6
       '@babel/plugin-transform-typescript': 7.24.6(@babel/core@7.24.6)
       '@vue/babel-plugin-jsx': 1.2.2(@babel/core@7.24.6)
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.11(@types.ts/node@20.12.12)
       vue: 3.4.27(typescript@5.4.5)
     transitivePeerDependencies:
       - supports-color
@@ -1109,7 +1109,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.11(@types.ts/node@20.12.12)
       vue: 3.4.27(typescript@5.4.5)
     dev: true
 
@@ -1131,7 +1131,7 @@ packages:
       std-env: 3.7.0
       strip-literal: 2.1.0
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.12.12)(jsdom@24.1.0)
+      vitest: 1.6.0(@types.ts/node@20.12.12)(jsdom@24.1.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2881,9 +2881,9 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.1
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.11(@types.ts/node@20.12.12)
     transitivePeerDependencies:
-      - '@types/node'
+      - '@types.ts/node'
       - less
       - lightningcss
       - sass
@@ -2955,12 +2955,12 @@ packages:
       minisearch: 6.3.0
       postcss: 8.4.38
       shiki: 1.6.0
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.11(@types.ts/node@20.12.12)
       vue: 3.4.27(typescript@5.4.5)
     transitivePeerDependencies:
       - '@algolia/client-search'
-      - '@types/node'
-      - '@types/react'
+      - '@types.ts/node'
+      - '@types.ts/react'
       - '@vue/composition-api'
       - async-validator
       - axios
@@ -3029,8 +3029,8 @@ packages:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.11(@types/node@20.12.12)
-      vite-node: 1.6.0(@types/node@20.12.12)
+      vite: 5.2.11(@types.ts/node@20.12.12)
+      vite-node: 1.6.0(@types.ts/node@20.12.12)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
