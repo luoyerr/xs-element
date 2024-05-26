@@ -1,0 +1,13 @@
+.github
+.idea
+.gitignore
+
+node_modules
+
+packages/components/node_modules
+packages/core/node_modules
+packages/docs/node_modules
+packages/hooks/node_modules
+packages/play/node_modules
+packages/theme/node_modules
+packages/utils/node_modules
